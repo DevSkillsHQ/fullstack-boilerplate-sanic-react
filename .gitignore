@@ -8,3 +8,5 @@ cypress/videos
 .DS_Store
 
 .idea
+
+app-sanic/__pycache__/
