@@ -1,7 +1,9 @@
 from sanic import Sanic
 from sanic.response import json
+from sanic_cors import CORS
 
 app = Sanic("My-Hello-World-App")
+CORS(app)
 
 @app.route('/ping')
 async def test(request):
